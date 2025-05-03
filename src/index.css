@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Enable dark mode */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-100 dark:bg-gray-900 transition-all;
+}
