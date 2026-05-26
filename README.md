@@ -1,49 +1,39 @@
-Features
+# Todo App
 
-✅ Real-time Messaging – Send and receive messages instantly
-✅ User Authentication – Login/Signup with Firebase Auth
-✅ User Profiles – Manage personal profile
-✅ Contact List – Browse and chat with users
-✅ Chat Threads – Organized conversation view
-✅ Responsive Design – Works on desktop and mobile
+A clean and modern **Task Management Application** built with **React.js** and **Tailwind CSS**.
 
-🛠 Tech Stack
+![Todo App Preview](https://via.placeholder.com/800x450?text=Todo+App+Screenshot)
 
-Frontend: React.js (Create React App)
-Backend: Firebase (Authentication + Realtime Database)
-Language: JavaScript
-Styling: CSS
+## ✨ Features
 
-🚀 Getting Started
-Prerequisites
+- ✅ Add new tasks
+- ✅ Mark tasks as complete / incomplete
+- ✅ Delete tasks
+- ✅ Clean and responsive UI
+- ✅ State management using React Context API
+- ✅ Beautiful design with Tailwind CSS
 
-Node.js (v14 or higher)
-Firebase account
+## 🛠 Tech Stack
 
-Installation
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **State Management**: React Context API
+- **Build Tool**: Create React App
 
-Clone the repositoryBashgit clone https://github.com/prashikBesekar/Real-Time-Chat.git
-cd Real-Time-Chat
-Install dependenciesBashnpm install
-Setup Firebase
-Create a new Firebase project
-Enable Authentication (Email/Password)
-Enable Realtime Database
-Copy your Firebase config and replace it in src/Component/firebase.js
+## 🚀 Getting Started
 
-Run the applicationBashnpm startOpen http://localhost:3000 to view it in the browser.
+### Prerequisites
+- Node.js (v16 or higher)
 
-📁 Project Structure
-textsrc/
-├── Component/
-│   ├── Chat.js
-│   ├── Contact.js
-│   ├── Home.js
-│   ├── Login.js
-│   ├── Profile.js
-│   ├── Thread.js
-│   ├── UsersList.js
-│   └── firebase.js
-├── App.js
-├── index.js
-└── App.css
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/prashikBesekar/Todo-App.git
+   cd Todo-App
+   npm install
+
+   Run the applicationBash
+   npm start
+
+  
